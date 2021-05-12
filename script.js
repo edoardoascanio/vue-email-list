@@ -14,7 +14,7 @@ new Vue({
 
             for (let i = 0; i < 10; i++) {
                 setTimeout(() => {
-                    axios.get("https://flynn.boolean.careers/exercises/api/random/int")
+                    axios.get("https://flynn.boolean.careers/exercises/api/random/mail")
                         .then((resp) => {
                             let randomMail = resp.data.response;
                             this.mails.push(randomMail);
